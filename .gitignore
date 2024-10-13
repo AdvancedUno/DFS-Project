@@ -1,0 +1,56 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+
+# Output files from the build process
+/bin/
+/build/
+
+# Local dependency directories (vendor/)
+vendor/
+
+# Go workspace file
+go.work
+go.work.sum
+
+# Logs
+*.log
+
+# Temporary files
+*.out
+*.tmp
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+
+# Coverage files
+*.cover
+coverage.out
+
+# Environment variables file
+.env
+
+# Dependency management files
+go.sum
+
+# Node_modules (if your project has front-end code)
+node_modules/
+
+# Go build cache
+.cache/
+
+# VS Code settings
+.vscode/settings.json
+.vscode/tasks.json
+.vscode/launch.json
+.vscode/extensions.json
